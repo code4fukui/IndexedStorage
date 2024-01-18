@@ -1,4 +1,4 @@
-import { IndexedDB } from "./IndexedDB.js";
+import { IndexedDB } from "https://code4fukui.github.io/IndexedDB/IndexedDB.js";
 
 export class IndexedStorage {
   static async create(name, ver) {
