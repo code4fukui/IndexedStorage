@@ -1,16 +1,13 @@
 # IndexedStorage
 
-IndexedDBによるlocalStorageのようなKVSストレージ
-
-## デモ
-オンラインデモはありません。
+IndexedDBを使ったKVSストレージです。localStorageのようなシンプルな使い勝手を提供します。
 
 ## 機能
-- IndexedDBを使ったKVSストレージ
-- 基本的なsetItem、getItem、removeItem、clearなどの操作が可能
+- IndexedDBを利用したKVSストレージ
+- setItem、getItem、removeItem、clearなどの基本的な操作が可能
 
 ## 必要環境
-- ブラウザ上で動作
+- ブラウザ環境
 - IndexedDBがサポートされている必要がある
 
 ## 使い方
