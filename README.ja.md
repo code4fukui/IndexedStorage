@@ -1,9 +1,9 @@
 # IndexedStorage
 
-IndexedDBを使ったKVSストレージです。localStorageのようなシンプルな使い勝手を提供します。
+IndexedDBを使ったキーバリューストレージです。localStorageのようなシンプルな使い勝手を提供します。
 
 ## 機能
-- IndexedDBを利用したKVSストレージ
+- IndexedDBを利用したキーバリューストレージ
 - setItem、getItem、removeItem、clearなどの基本的な操作が可能
 
 ## 必要環境
