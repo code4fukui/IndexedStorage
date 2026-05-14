@@ -1,10 +1,8 @@
 # IndexedStorage
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+IndexedDBをベースに構築された、`localStorage`に似たキーバリューストレージシステムです。
 
-A key-value storage system similar to `localStorage`, but built on top of IndexedDB.
-
-## Usage
+## 使い方
 
 ```js
 import { IndexedStorage } from "https://code4fukui.github.io/IndexedStorage/IndexedStorage.js";
@@ -18,10 +16,10 @@ t.assertEquals(await storage.getItem("key1"), "value1");
 t.assertEquals(await storage.getItem("key2"), "value2");
 ```
 
-## Dependencies
+## 依存関係
 
 - [IndexedDB](https://github.com/code4fukui/IndexedDB)
 
-## License
+## ライセンス
 
-MIT License — see [LICENSE](LICENSE).
+MIT License — 詳細は[LICENSE](LICENSE)を参照してください。
